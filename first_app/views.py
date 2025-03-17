@@ -1,4 +1,5 @@
 import random
+from faker import Faker
 from django.shortcuts import render
 
 # Create your views here.
@@ -49,3 +50,16 @@ def cube(request, number):
     }
 
     return render(request, 'cube.html', context)
+
+def articles(request):
+    fake = Faker()
+    fake_articles = []
+
+    for i in range(100):
+        fake_articles.append(fake.text())
+
+    context = {
+        'fake_articles': fake_articles,
+    }
+
+    return render(request, 'articles.html', context)

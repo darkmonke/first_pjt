@@ -28,4 +28,6 @@ urlpatterns = [
     # variable routing
     path('profile/<username>/', views.profile),
     path('cube/<int:number>/', views.cube),
+
+    path('articles/', views.articles),
 ]
