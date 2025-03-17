@@ -37,5 +37,5 @@ INSTALLED_APPS = [
 ]
 ```
 
-# 프로잭트 폴더(first_pjt)는 모든 앱들을 통합 관리
+# 프로젝트 폴더(first_pjt)는 모든 앱들을 통합 관리
 # 앱 폴더(first_app)는 독립적으로 관리되는 폴더
