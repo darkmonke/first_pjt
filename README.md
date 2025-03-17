@@ -16,12 +16,12 @@ pip install django
 
 2. 프로젝트 생성
 ```
-django-admin startproject <pjt-name> <path>
+django-admin startproject <pjt-name> <path> .
 ```
 
 3. 서버 실행(종료: 'ctrl + c')
 ```
-python manage.py runserver runserver
+python manage.py runserver
 ```
 
 4. 앱 생성
